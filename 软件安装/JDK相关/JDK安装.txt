@@ -1,0 +1,8 @@
+JDK安装
+1、官网下载JDK安装。
+2、环境变量设置。
+     新增JAVA_HOME   C:\Program Files\Java\jdk1.8.0_231
+     新增CLASSPATH  .;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
+     path加上                      %JAVA_HOME%\bin      %JAVA_HOME%\jre\bin
+
+3、CMD 测试  java  javac  java -version
